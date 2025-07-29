@@ -10,27 +10,13 @@ import {
   Star, 
   CheckCircle, 
   Phone, 
-  Mail, 
-  User, 
-  CreditCard, 
-  Calendar, 
-  Settings,
   Shield,
   Truck,
-  Award,
   Users,
   Clock,
-  Gift,
-  Zap,
-  Heart,
-  MessageCircle,
   MapPin,
-  AlertTriangle,
   TrendingDown,
-  Target,
-  DollarSign,
   ArrowRight,
-  Timer,
   Flame,
   ThumbsUp,
   TrendingUp
@@ -390,7 +376,7 @@ export default function Home() {
                     <p className="text-xs text-gray-500">절약</p>
                   </div>
                 </div>
-                <p className="text-sm text-gray-700 font-light leading-relaxed">"{testimonial.content}"</p>
+                <p className="text-sm text-gray-700 font-light leading-relaxed">&ldquo;{testimonial.content}&rdquo;</p>
               </motion.div>
             ))}
           </div>
