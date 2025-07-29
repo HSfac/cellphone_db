@@ -12,6 +12,7 @@ export const isSupabaseConfigured = () => {
          process.env.NEXT_PUBLIC_SUPABASE_URL !== 'https://placeholder.supabase.co'
 }
 
+
 export type PhoneLead = {
   id?: number
   name: string
